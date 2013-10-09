@@ -1,2 +1,2 @@
-Skybrud.Social-for-Umbraco
+Skybrud.Social for Umbraco
 ==========================
