@@ -1,0 +1,23 @@
+﻿table.dataTypes {
+  width: 100%;
+  border-spacing: 1px;
+}
+table.dataTypes th {
+  border-bottom: 1px solid black;
+  background: white;
+  padding: 3px;
+  font-size: 11px;
+  text-align: left;
+}
+table.dataTypes td {
+  background: white;
+  padding: 3px;
+  font-size: 11px;
+  vertical-align: top;
+}
+table.dataTypes td.nw {
+  white-space: nowrap;
+}
+table.dataTypes td.fw {
+  width: 100%;
+}

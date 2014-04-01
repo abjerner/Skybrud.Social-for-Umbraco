@@ -1,0 +1,45 @@
+﻿.SkybrudSocial.FacebookOAuth, .SkybrudSocial.InstagramOAuth, .SkybrudSocial.TwitterOAuth {
+    
+    height: 85px;
+
+    &.authenticated {
+        /* nothing to do here */
+    }
+
+    .avatar {
+        float: left;
+        display: none;
+        margin-right: 10px;
+        width: 50px;
+        height: 50px;
+        background: #efefef;
+        background-size: 50px;
+    }
+
+    .details {
+        float: left;
+    }
+
+    .name {
+        display: none;
+        margin-bottom: 5px;
+        font-weight: bold;
+        span {
+            font-size: 10px;
+            font-weight: normal;
+        }
+    }
+
+    .details a {
+        display: inline-block;
+        margin-right: 5px;
+        background: #f26e20;
+        padding: 5px;
+        color: white;
+        text-decoration: none;
+        &:hover {
+            background: darken(#f26e20, 5%);
+        }
+    }
+
+}
